@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUGAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>"Kill them with your <span>SUCCESS</span> , bury them with your <span>SMILE</span>"</h1>
+      </header>
+    
+      <nav id="main">
+        <ul>
+          <li class="logo"><a href="#">YUGAL PATIDAR</a></li>
+          <li><a href="#h1">About me</a></li>
+          <!-- <li><a href="#">About</a></li> -->
+          <li><a href="index2.html">Images</a></li>
+          <li><a href="project.html">Projects</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    
+      <div class="site-wrap">
+        
+        <pre>
+          <h1 id="h1">     HELLO,  I'M YUGAL </h1>
+          <h2 id="h2">    A DEVELOPER</h2>
+        </pre> 
+        
+        
+        
+        <!-- <img src="http://unsplash.it/400/400" class="left"> -->
+        <img src="pic.jpeg" class="left">
+        <p><a id="hello">Hello </a>, I am Yugal  Patidar  , a future Full Stack Developer ,  who  is  pursing  a BE Degree in IT (Information Technology ) ,  from Gujarat Technical  University  . Interesting  facts are  I am Self -Taught  Developer  currently  working  on  different  projects  of different  fields  like  Gaming  , Online  Shopping  and Weather  etc .I am also intrested  on doing  Competition  Coding  from Different platforms  like Interviewbit,  leetcode , Hackerearth and GeeksforGeeks in  JAVA , C++ programming  languages .</p>
+        <!-- <img src="http://unsplash.it/400/400" class="right"> -->
+        <h3 id="skills">SKILLS</h3>
+        <pre><p><ul>
+            <li id="li">Front-End as HTML / CSS / JS / React-JS</li>
+            <li id="li">Data Structure and Algorithmn</li>
+            <li id="li">Mango-DB</li>
+            <li id="li">node.JS</li>
+            <li id="li">Programming Language : JAVA / C++ </li>
+          </ul></p></pre>
+      </div>
+      <div>
+        <footer> Yugal Patidar</footer>
+      </div>
+      <script>
+            const nav = document.querySelector('#main');
+    let topOfNav = nav.offsetTop;
+
+    function fixNav() {
+      if (window.scrollY >= topOfNav) {
+        document.body.style.paddingTop = nav.offsetHeight + 'px';
+        document.body.classList.add('fixed-nav');
+      } else {
+        document.body.classList.remove('fixed-nav');
+        document.body.style.paddingTop = 0;
+      }
+    }
+
+    window.addEventListener('scroll', fixNav);
+      </script>
+</body>
+</html>

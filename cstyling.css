@@ -1,0 +1,36 @@
+body{
+background-image: url(/snow.jpg);
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#new{
+    text-align: center;
+    justify-content: center;
+}
+div{
+    /* background-color: red; */
+    height: 100px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+a{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: black;
+    
+}
+
+
